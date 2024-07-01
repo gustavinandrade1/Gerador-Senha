@@ -1,0 +1,172 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+html,
+body {
+  height: auto;
+  min-height: 100vh;
+}
+
+html {
+  background: linear-gradient(180deg, rgba(234, 2, 255, 1) 0%, #0097dd 100%);
+}
+
+input:focus {
+    outline: none;
+}
+
+#login-container {
+    max-width: 750px;
+    min-height: 60vh;
+    margin: 2rem auto;
+    display: flex;
+    box-shadow: 5px 0px 36px 7px rgba(0, 0, 0, 0.75);  
+}
+
+#login-banner {
+    background: url(img/bg-form.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    background-blend-mode: saturation;
+}
+
+#login-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    word-spacing: 40rem;
+}
+
+#login-layer {
+    background-color: rgba(25, 11, 122, .7);
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#login-form {
+    background-color: #fdfdfd;
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+
+#login-form p {     
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #aaa;
+    font-size: 1rem;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .6rem;
+}
+
+.form-control input {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: .6rem 0;
+    transition: .2s;
+}
+
+.form-control input:focus {
+    transform: scale(1.1);
+}
+
+#scale p {
+    margin-bottom: 0;
+}
+#scale a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    transition: .2s;
+}
+
+#scale a:hover {
+    color: #0097dd;
+    transform: scale(1.1);
+}
+
+#forget {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    font-weight: bold;
+    
+}
+
+#form-remember {
+    display: flex;
+    align-items: ceenter;
+}
+
+#form-remember label {
+    margin-left: .3rem;
+}
+
+#forget a {
+    text-decoration: none;
+    transition: .2s;
+}
+
+#forget a:hover {
+    color: #0097dd;
+    transform: scale(1.1);
+}
+
+#logged {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 1.4rem;
+    background-color: #81d340;
+    color: #fff;
+    width: 200px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    cursor: pointer;
+    opacity: .7;
+    transition: .3s;
+}
+
+#logged:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+
+
